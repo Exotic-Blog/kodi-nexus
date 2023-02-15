@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<addon id="skin.aeonmq9" version="1.5.0" name="Aeon MQ 9" provider-name="MarcosQui">
+	    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir>
+         <info compressed="false">https://raw.githubusercontent.com/Exotic-Blog/kodi-nexus/master/repo/zips/addons.xml</info>
+         <checksum>https://raw.githubusercontent.com/Exotic-Blog/kodi-nexus/master/repo/zips/addons.xml.md5</checksum>
+         <datadir zip="true">https://raw.githubusercontent.com/Exotic-Blog/kodi-nexus/master/repo/zips/</datadir>
+        </dir>
+    </extension>
 	<requires>
 		<import addon="xbmc.gui" version="5.16.0"/>
 	</requires>
